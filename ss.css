@@ -69,13 +69,14 @@ td img{
   background: rgba(102, 60, 144, 0.342);
 }
 
-
-
 .caja input{
     position:relative;
     margin-top:30px;
+    
 }
-
+.caja button{
+    margin-top:0;
+}
 .caja:hover {
     box-shadow: 0 0 20px 10px rgba(192, 192, 192, 0.8); 
     border-color: silver; 
