@@ -2,7 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.caja input{
+    position:abosulte;
+    left:50%;
+    top:50%;
+}
 .insi{
     background-color: #c29fdb ;
     width: 290vh;
