@@ -1,0 +1,98 @@
+body {
+    background-color: #dbd1d1;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+}
+
+.carta {
+    align-items: center;
+    width: 240px;
+    height: 254px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    border-radius: 20px;
+  }
+  
+  
+  .cartatit {
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+  }
+  
+  .cartacont {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+  }
+  
+  .cartaf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cartaf input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  .cartaf button {
+    border: 0;
+    background: #66408fc2;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+  }
+  
+  .bob:hover {
+    opacity: 0.8;
+  } 
+
+
+
+  .alerta {
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 1000; 
+    transition: opacity 0.5s;
+    display: none; 
+}
+
+.alerta.exito {
+    background-color: #4CAF50; 
+}
+
+.alerta.error {
+    background-color: #f44336; 
+}
+
+.ocultar {
+    display: none; 
+}
+  
