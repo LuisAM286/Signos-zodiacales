@@ -1,0 +1,130 @@
+
+body {
+    display: flex;
+    background-image: url(img/curv.png);
+    background-repeat: repeat;
+    background-size: contain; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2E004F;
+    position: relative;
+
+}
+
+
+.info p{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, (serif);
+    font-style: italic;
+    color: white;
+}
+
+
+.insi{
+    background-color: #9b59ca ;
+
+}
+
+.c {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+.circu {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    position: absolute;
+}
+
+.circu img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+
+.circu1 { 
+    top: 10px; 
+    left: 10px; 
+}
+.circu2 { 
+    top: 80px; left: 200px; }
+.circu3 { 
+    top: 250px; 
+    left: 350px;
+ }
+.circu4 { top: 150px; left: 50px; }
+.circu5 { top: 300px; left: 100px; }
+.circu6 { top: 250px; left: 250px; }
+.circu7 { top: 400px; left: 50px; }
+.circu8 { top: 350px; left: 350px; }
+.circu9 { top: 50px; left: 400px; }
+.circu10 { top: 150px; left: 300px; }
+.circu11 { top: 400px; left: 200px; }
+.circu12 { top: 100px; left: 100px; }
+
+.circu:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 20px 5px rgba(255, 223, 0, 0.7);
+}
+
+
+.circu.active {
+    transform: scale(2);
+    box-shadow: 0 0 20px 10px rgba(255, 223, 0, 0.7);
+    background: radial-gradient(circle, rgba(194, 174, 74, 0.8) 60%, rgba(255, 223, 0, 0.6) 100%);
+}
+
+
+.cont-pre{
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    background-image: url(img/de.jfif);
+    background-repeat: repeat;
+    box-shadow: 0 0 5px 5px gold;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cont-pre h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size:50px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cont-pre input{
+    border:none;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.cont-pre button{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
