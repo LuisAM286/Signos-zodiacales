@@ -73,6 +73,7 @@ td img{
 
 .caja input{
     position:relative;
+    margin-top:30px;
 }
 
 .caja:hover {
