@@ -70,6 +70,11 @@ td img{
 }
 
 
+
+.caja input{
+    position:relative;
+}
+
 .caja:hover {
     box-shadow: 0 0 20px 10px rgba(192, 192, 192, 0.8); 
     border-color: silver; 
