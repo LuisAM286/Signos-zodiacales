@@ -69,11 +69,16 @@ td img{
   background: rgba(102, 60, 144, 0.342);
 }
 
-.caja input{
-    position:relative;
-    margin-top:30px;
-    
+.cont-pre input{
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    width: 200px;
+    border-radius: 14px;
+    border: 1px solid #333;
+  
 }
+
 .caja button{
     margin-top:0;
 }
