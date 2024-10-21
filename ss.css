@@ -91,19 +91,6 @@ td img{
     font-size: 28px;
 }
 
-.cont-pre input{
-    position: absolute;
-    bottom: 250px;
-    right: 90vh;
-    background: rgb(255, 255, 255);
-    box-shadow: transparent 0px 0px 0px 1px inset;
-    padding: 0.6em;
-    width: 200px;
-    border-radius: 14px;
-    border: 1px solid #333;
-  
-}
-
 
 .Btn {
     display: flex;
